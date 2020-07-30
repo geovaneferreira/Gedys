@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #2 in closure #1 in ViewKeys.viewDBsSize(_:):ViewKeys.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;\(info) aa&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Configs.impotJson(jsoninput:):Configs.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "hostslist">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Configs.adds(resultado:):Configs.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(data: jsonData, encoding: String.Encoding.utf8)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

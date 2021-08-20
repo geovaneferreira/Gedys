@@ -21,6 +21,7 @@ class ViewConections: UIViewController, UITableViewDataSource, UITableViewDelega
         tableConnections.separatorColor = ViewsColor.sharedInstance.getcolor(type: "separador")
     }
     
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }

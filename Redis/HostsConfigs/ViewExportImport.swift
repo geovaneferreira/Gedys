@@ -18,12 +18,20 @@ class ViewExportImport: UIViewController, UIDocumentPickerDelegate {
     override func viewDidLoad() {
        super.viewDidLoad()
        txtImportHosts.text = Configs.sharedInstance.exportJson()
+        //Looks for single or multiple taps.
+       let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
+       view.addGestureRecognizer(tap)
     }
        
    override func didReceiveMemoryWarning() {
        super.didReceiveMemoryWarning()
        // Dispose of any resources that can be recreated.
    }
+    
+    @objc override func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
     
     @IBAction func ImportHosts(_ sender: Any) {
         if(!txtImportHosts.text.isEmpty){
@@ -32,19 +40,13 @@ class ViewExportImport: UIViewController, UIDocumentPickerDelegate {
           alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
                 switch action.style{
                 case .default:
-                    Configs.sharedInstance.impotJson(jsoninput: self.txtImportHosts.text)
-//                    let alert2 = UIAlertController(title: "Hosts Connections", message: "Saved", preferredStyle: UIAlertController.Style.alert)
-//                    alert2.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
-//                    self.present(alert2, animated: true, completion: nil)
-//                    self.txtImportHosts.text = Configs.sharedInstance.exportJson()
-//                    print("default")
-                
+                    let rt = Configs.sharedInstance.impotJson(jsoninput: self.txtImportHosts.text)
+                    print(rt)
+                    break
                 case .cancel:
                       print("cancel")
-
                 case .destructive:
                       print("destructive")
-
 
           }}))
           alert.addAction(UIAlertAction(title: "No", style: .default, handler: nil))

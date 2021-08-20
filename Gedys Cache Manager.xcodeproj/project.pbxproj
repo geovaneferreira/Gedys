@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B8A58E2DA7C268794C94F43 /* Pods_Redis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C023DD3B86EA2032B1A1033 /* Pods_Redis.framework */; };
+		3A578C8C4B6E1A1B52491DE4 /* Pods_Gedys_Cache_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7393345E577B9B2191E12686 /* Pods_Gedys_Cache_Manager.framework */; };
 		C509A28724AA3079003D28C2 /* ViewExportImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C509A28624AA3079003D28C2 /* ViewExportImport.swift */; };
 		C536737C24A6EC9300EB3828 /* TableViewCellMainListKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536737B24A6EC9300EB3828 /* TableViewCellMainListKeys.swift */; };
 		C56145CA24B4B8A600475118 /* ViewHostInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56145C924B4B8A600475118 /* ViewHostInfos.swift */; };
@@ -44,8 +44,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04CE241EEE42172BAD43DB00 /* Pods-Gedys Cache Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gedys Cache Manager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager.debug.xcconfig"; sourceTree = "<group>"; };
 		3E239A096FC24EC292FF1813 /* Pods-Redis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redis/Pods-Redis.release.xcconfig"; sourceTree = "<group>"; };
-		6C023DD3B86EA2032B1A1033 /* Pods_Redis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Redis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7393345E577B9B2191E12686 /* Pods_Gedys_Cache_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gedys_Cache_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C072211B79AB3F6E086D7B0 /* Pods-Gedys Cache Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gedys Cache Manager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager.release.xcconfig"; sourceTree = "<group>"; };
 		C42AB2FEA8DCEE8B2163ADCF /* Pods-Redis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redis/Pods-Redis.debug.xcconfig"; sourceTree = "<group>"; };
 		C509A28624AA3079003D28C2 /* ViewExportImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExportImport.swift; sourceTree = "<group>"; };
 		C536737B24A6EC9300EB3828 /* TableViewCellMainListKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellMainListKeys.swift; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B8A58E2DA7C268794C94F43 /* Pods_Redis.framework in Frameworks */,
+				3A578C8C4B6E1A1B52491DE4 /* Pods_Gedys_Cache_Manager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +104,8 @@
 			children = (
 				C42AB2FEA8DCEE8B2163ADCF /* Pods-Redis.debug.xcconfig */,
 				3E239A096FC24EC292FF1813 /* Pods-Redis.release.xcconfig */,
+				04CE241EEE42172BAD43DB00 /* Pods-Gedys Cache Manager.debug.xcconfig */,
+				9C072211B79AB3F6E086D7B0 /* Pods-Gedys Cache Manager.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -202,7 +206,7 @@
 		FCA1F55EBCE864F9CCAEBAB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6C023DD3B86EA2032B1A1033 /* Pods_Redis.framework */,
+				7393345E577B9B2191E12686 /* Pods_Gedys_Cache_Manager.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -287,7 +291,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Redis-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Gedys Cache Manager-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -300,15 +304,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Redis/Pods-Redis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Redis/Pods-Redis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Redis/Pods-Redis-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -489,12 +493,12 @@
 		};
 		C5AF19AA20C1E72400750028 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C42AB2FEA8DCEE8B2163ADCF /* Pods-Redis.debug.xcconfig */;
+			baseConfigurationReference = 04CE241EEE42172BAD43DB00 /* Pods-Gedys Cache Manager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Redis/Redis Cli.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = M4437JJR35;
 				INFOPLIST_FILE = Redis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -502,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecsul.RedisCliManagement;
 				PRODUCT_NAME = "Gedys Cache Manager";
 				SUPPORTS_MACCATALYST = YES;
@@ -513,12 +517,12 @@
 		};
 		C5AF19AB20C1E72400750028 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E239A096FC24EC292FF1813 /* Pods-Redis.release.xcconfig */;
+			baseConfigurationReference = 9C072211B79AB3F6E086D7B0 /* Pods-Gedys Cache Manager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Redis/Redis Cli.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = M4437JJR35;
 				INFOPLIST_FILE = Redis/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -526,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecsul.RedisCliManagement;
 				PRODUCT_NAME = "Gedys Cache Manager";
 				SUPPORTS_MACCATALYST = YES;

@@ -44,9 +44,9 @@ class ViewNewHost: UIViewController {
     
     @IBAction func btnAddExampleHost(_ sender: Any) {
            let hostNew = HostRedis()
-           hostNew.host = "docker2.ext.tecsuleletronica.com.br"
+           hostNew.host = "tecsuleletronica.com.br"
            hostNew.name = "Example Test Host Redis"
-           hostNew.port = 1064
+           hostNew.port = 6178
            hostNew.auth = ""
            Configs.sharedInstance.add(resultado: hostNew)
         

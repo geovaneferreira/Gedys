@@ -11,15 +11,15 @@
 		1760AF3E2CF96191F7758264E33AD9E6 /* BlueSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0F7CB91F00C6050765C87DA7620C01 /* BlueSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2059D8B5FFE163E510E12C5A6A2E61F0 /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3F4459419BE81C106E0AB3E0A1A0F /* SocketUtils.swift */; };
 		20ABA3F900EAFCE434322581110ADEF2 /* SocketProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F917B079DD9A7B264CE51E58A406E6 /* SocketProtocols.swift */; };
-		2BF3ABF989EF12F664DB16035D0EDC95 /* Pods-Redis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0789931A75EB75361E188A1E69163F1F /* Pods-Redis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D2BEE09A1F05D8B12A78560AE23388F /* Pods-Redis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A563A7C353A1D6921819806302A12D7F /* Pods-Redis-dummy.m */; };
-		90347FFE967F9F20BE4960708ACBB4EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		68FD12EA95C913516DE29FD4E4764B01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B123D87AFD246549AEB4E621C8A51639 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E26C370341542BEC3423695C8F570449 /* Pods-Gedys Cache Manager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0C1271BCD1806BF83A842B20D56ECE /* Pods-Gedys Cache Manager-dummy.m */; };
 		E654F0639E4FC3DEE1BEA8BB63F55745 /* BlueSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B65232C47263EFD17119D790497738A2 /* BlueSocket-dummy.m */; };
-		F11996F4EBDF30020A57A41289F78AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ECD691B07F5AC55BDDE9B3095FAD9E12 /* Pods-Gedys Cache Manager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE7F0FF8265CA66FDC7922FD490D44B /* Pods-Gedys Cache Manager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EFB2DC24586BFCA354DFFC614F2FAE68 /* PBXContainerItemProxy */ = {
+		55829595E5CF02CE2FA3C459059D0245 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,36 +30,36 @@
 
 /* Begin PBXFileReference section */
 		071BC984C72A5FBFECEB63BE60D341E5 /* BlueSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BlueSocket-Info.plist"; sourceTree = "<group>"; };
-		0789931A75EB75361E188A1E69163F1F /* Pods-Redis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Redis-umbrella.h"; sourceTree = "<group>"; };
+		12DE0AA20234949BEB71645715EC2FB0 /* Pods-Gedys Cache Manager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Gedys Cache Manager-frameworks.sh"; sourceTree = "<group>"; };
 		16FDF11F2F5DA96F470B0FE7A8AB07A4 /* BlueSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.release.xcconfig; sourceTree = "<group>"; };
-		1BC6A927ECA538878F8789F778F158FB /* Pods-Redis-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Redis-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EAA4A7F572E0FFFDA0F24140040D388 /* Socket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Socket.framework; path = BlueSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3FFBBA5790BDF5E2F10173DFDE02B4DD /* Pods-Redis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Redis.debug.xcconfig"; sourceTree = "<group>"; };
 		561F1B364E187424B267A61A16756154 /* BlueSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlueSocket.debug.xcconfig; sourceTree = "<group>"; };
 		68D3F4459419BE81C106E0AB3E0A1A0F /* SocketUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketUtils.swift; path = Sources/Socket/SocketUtils.swift; sourceTree = "<group>"; };
-		779CD7752AA8102A2C7CDF0137C70741 /* Pods-Redis-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Redis-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75FC2885A37CD4F79753E2DDC5ABDA70 /* Pods_Gedys_Cache_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Gedys_Cache_Manager.framework; path = "Pods-Gedys Cache Manager.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5F31D38EF4CC8B87E6FAFA575D8F7A /* BlueSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-prefix.pch"; sourceTree = "<group>"; };
-		98207680B2B94B913E5288BC994FEAE9 /* Pods-Redis-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Redis-acknowledgements.plist"; sourceTree = "<group>"; };
+		88BBF194CAE44A6C518C90517AB322C2 /* Pods-Gedys Cache Manager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gedys Cache Manager.modulemap"; sourceTree = "<group>"; };
+		8B0C1271BCD1806BF83A842B20D56ECE /* Pods-Gedys Cache Manager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gedys Cache Manager-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E806AE0BC365358D861A7E3DB3546E9 /* Pods_Redis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Redis.framework; path = "Pods-Redis.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE7F0FF8265CA66FDC7922FD490D44B /* Pods-Gedys Cache Manager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gedys Cache Manager-umbrella.h"; sourceTree = "<group>"; };
 		A21574A8FB4A4A2F4C43ABFEFF803CB3 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket/Socket.swift; sourceTree = "<group>"; };
-		A563A7C353A1D6921819806302A12D7F /* Pods-Redis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Redis-dummy.m"; sourceTree = "<group>"; };
-		A5E62CA66E56C2598A25F602D1B6FEDA /* Pods-Redis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Redis.release.xcconfig"; sourceTree = "<group>"; };
 		AF0F7CB91F00C6050765C87DA7620C01 /* BlueSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlueSocket-umbrella.h"; sourceTree = "<group>"; };
-		B1806DB10098EF9AE544115B924BBD21 /* Pods-Redis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Redis-Info.plist"; sourceTree = "<group>"; };
+		AFEB45971CD931F233267CD5CAC36FB6 /* Pods-Gedys Cache Manager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gedys Cache Manager-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3780EF56415E4D4C84A28A175699240 /* Pods-Gedys Cache Manager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gedys Cache Manager-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B65232C47263EFD17119D790497738A2 /* BlueSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlueSocket-dummy.m"; sourceTree = "<group>"; };
-		B738E93900696A2B801EC53F5222C8CE /* Pods-Redis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Redis.modulemap"; sourceTree = "<group>"; };
 		C2BC6466FC5ED78D10D601DB974071DC /* BlueSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlueSocket.modulemap; sourceTree = "<group>"; };
+		C9DDC6D95A0FFD9449468D0069B2DE7B /* Pods-Gedys Cache Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gedys Cache Manager.debug.xcconfig"; sourceTree = "<group>"; };
+		D013FA9461B10DEC8E7275433E2A532B /* Pods-Gedys Cache Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gedys Cache Manager.release.xcconfig"; sourceTree = "<group>"; };
 		E9F917B079DD9A7B264CE51E58A406E6 /* SocketProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SocketProtocols.swift; path = Sources/Socket/SocketProtocols.swift; sourceTree = "<group>"; };
+		FF5696DDFDBDF4F230B5C16E741BA2F5 /* Pods-Gedys Cache Manager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gedys Cache Manager-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B957526FD26A916536F45718CE01690 /* Frameworks */ = {
+		644873873FF0C48C7191E66189E25790 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11996F4EBDF30020A57A41289F78AC7 /* Foundation.framework in Frameworks */,
+				68FD12EA95C913516DE29FD4E4764B01 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,27 +67,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90347FFE967F9F20BE4960708ACBB4EC /* Foundation.framework in Frameworks */,
+				B123D87AFD246549AEB4E621C8A51639 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08B5ACD16AEFDDCEF3DDB992007E6C22 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				939991B35245E95225C97FF6944DECA4 /* Pods-Gedys Cache Manager */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		11CE1E87E37E7513BA08D84D433FE789 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				FA08B02F1402F545D33625F62AFB9859 /* BlueSocket */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		17EEF5624CAD96A8D415A51158B97F62 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				94040391FE6E1AB25F2B48158BE44CF0 /* Pods-Redis */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		2E3A7CC14981F7B2664EA1EA39328B3C /* Support Files */ = {
@@ -105,38 +105,38 @@
 			path = "../Target Support Files/BlueSocket";
 			sourceTree = "<group>";
 		};
-		94040391FE6E1AB25F2B48158BE44CF0 /* Pods-Redis */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B738E93900696A2B801EC53F5222C8CE /* Pods-Redis.modulemap */,
-				1BC6A927ECA538878F8789F778F158FB /* Pods-Redis-acknowledgements.markdown */,
-				98207680B2B94B913E5288BC994FEAE9 /* Pods-Redis-acknowledgements.plist */,
-				A563A7C353A1D6921819806302A12D7F /* Pods-Redis-dummy.m */,
-				779CD7752AA8102A2C7CDF0137C70741 /* Pods-Redis-frameworks.sh */,
-				B1806DB10098EF9AE544115B924BBD21 /* Pods-Redis-Info.plist */,
-				0789931A75EB75361E188A1E69163F1F /* Pods-Redis-umbrella.h */,
-				3FFBBA5790BDF5E2F10173DFDE02B4DD /* Pods-Redis.debug.xcconfig */,
-				A5E62CA66E56C2598A25F602D1B6FEDA /* Pods-Redis.release.xcconfig */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = "Pods-Redis";
-			path = "Target Support Files/Pods-Redis";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		981FE27CDC80548B090C7704024B4859 /* Products */ = {
+		939991B35245E95225C97FF6944DECA4 /* Pods-Gedys Cache Manager */ = {
 			isa = PBXGroup;
 			children = (
-				9E806AE0BC365358D861A7E3DB3546E9 /* Pods_Redis.framework */,
+				88BBF194CAE44A6C518C90517AB322C2 /* Pods-Gedys Cache Manager.modulemap */,
+				B3780EF56415E4D4C84A28A175699240 /* Pods-Gedys Cache Manager-acknowledgements.markdown */,
+				AFEB45971CD931F233267CD5CAC36FB6 /* Pods-Gedys Cache Manager-acknowledgements.plist */,
+				8B0C1271BCD1806BF83A842B20D56ECE /* Pods-Gedys Cache Manager-dummy.m */,
+				12DE0AA20234949BEB71645715EC2FB0 /* Pods-Gedys Cache Manager-frameworks.sh */,
+				FF5696DDFDBDF4F230B5C16E741BA2F5 /* Pods-Gedys Cache Manager-Info.plist */,
+				9EE7F0FF8265CA66FDC7922FD490D44B /* Pods-Gedys Cache Manager-umbrella.h */,
+				C9DDC6D95A0FFD9449468D0069B2DE7B /* Pods-Gedys Cache Manager.debug.xcconfig */,
+				D013FA9461B10DEC8E7275433E2A532B /* Pods-Gedys Cache Manager.release.xcconfig */,
+			);
+			name = "Pods-Gedys Cache Manager";
+			path = "Target Support Files/Pods-Gedys Cache Manager";
+			sourceTree = "<group>";
+		};
+		A67F731C829DAD6B10BC1EAE4AAE58C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75FC2885A37CD4F79753E2DDC5ABDA70 /* Pods_Gedys_Cache_Manager.framework */,
 				2EAA4A7F572E0FFFDA0F24140040D388 /* Socket.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -145,15 +145,15 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				11CE1E87E37E7513BA08D84D433FE789 /* Pods */,
-				981FE27CDC80548B090C7704024B4859 /* Products */,
-				17EEF5624CAD96A8D415A51158B97F62 /* Targets Support Files */,
+				A67F731C829DAD6B10BC1EAE4AAE58C6 /* Products */,
+				08B5ACD16AEFDDCEF3DDB992007E6C22 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,11 +173,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		459BB10DC6CBAD91F759D9A999209EBC /* Headers */ = {
+		D754569E3CE0FBF86CAB54F98EFCFC36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF3ABF989EF12F664DB16035D0EDC95 /* Pods-Redis-umbrella.h in Headers */,
+				ECD691B07F5AC55BDDE9B3095FAD9E12 /* Pods-Gedys Cache Manager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,23 +210,23 @@
 			productReference = 2EAA4A7F572E0FFFDA0F24140040D388 /* Socket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D863F7DCF716E628A4F4FB1607B1A314 /* Pods-Redis */ = {
+		B6D7B2EE89DDDC55CA0DD54980083844 /* Pods-Gedys Cache Manager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A124BEAF9406A22A72A469E8C68D1D18 /* Build configuration list for PBXNativeTarget "Pods-Redis" */;
+			buildConfigurationList = 98564974C12EE5C64B201BF67FD43720 /* Build configuration list for PBXNativeTarget "Pods-Gedys Cache Manager" */;
 			buildPhases = (
-				459BB10DC6CBAD91F759D9A999209EBC /* Headers */,
-				026C505C8631F40BD030617EE624A0BA /* Sources */,
-				9B957526FD26A916536F45718CE01690 /* Frameworks */,
-				6E054665F87AD80551D52FB07EC54950 /* Resources */,
+				D754569E3CE0FBF86CAB54F98EFCFC36 /* Headers */,
+				E706BB83F5305CE08FB21E1E68C7EA3A /* Sources */,
+				644873873FF0C48C7191E66189E25790 /* Frameworks */,
+				2B409C9FB5D6ECC26D4D1C38DB491BC2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				901C5AAFADACE655442025AD55DE6187 /* PBXTargetDependency */,
+				44B776E81B5C8643D2766C012AF50500 /* PBXTargetDependency */,
 			);
-			name = "Pods-Redis";
-			productName = "Pods-Redis";
-			productReference = 9E806AE0BC365358D861A7E3DB3546E9 /* Pods_Redis.framework */;
+			name = "Pods-Gedys Cache Manager";
+			productName = "Pods-Gedys Cache Manager";
+			productReference = 75FC2885A37CD4F79753E2DDC5ABDA70 /* Pods_Gedys_Cache_Manager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -247,18 +247,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 981FE27CDC80548B090C7704024B4859 /* Products */;
+			productRefGroup = A67F731C829DAD6B10BC1EAE4AAE58C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */,
-				D863F7DCF716E628A4F4FB1607B1A314 /* Pods-Redis */,
+				B6D7B2EE89DDDC55CA0DD54980083844 /* Pods-Gedys Cache Manager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6E054665F87AD80551D52FB07EC54950 /* Resources */ = {
+		2B409C9FB5D6ECC26D4D1C38DB491BC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,14 +275,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		026C505C8631F40BD030617EE624A0BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D2BEE09A1F05D8B12A78560AE23388F /* Pods-Redis-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA99ED16FD44DA8B3FD690B27CBA2194 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,60 +286,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E706BB83F5305CE08FB21E1E68C7EA3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26C370341542BEC3423695C8F570449 /* Pods-Gedys Cache Manager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		901C5AAFADACE655442025AD55DE6187 /* PBXTargetDependency */ = {
+		44B776E81B5C8643D2766C012AF50500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BlueSocket;
 			target = 9717BE7FCECEF299173A5D71C18B19F5 /* BlueSocket */;
-			targetProxy = EFB2DC24586BFCA354DFFC614F2FAE68 /* PBXContainerItemProxy */;
+			targetProxy = 55829595E5CF02CE2FA3C459059D0245 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A7D6F790B3763EB8274DE4A95C855F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FFBBA5790BDF5E2F10173DFDE02B4DD /* Pods-Redis.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Redis/Pods-Redis-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Redis/Pods-Redis.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -370,6 +333,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -408,49 +372,12 @@
 			};
 			name = Debug;
 		};
-		2EDE49D2ACB2DDF26978F132203C8E88 /* Release */ = {
+		3B959EEB01C8D16BEBF7417C3D8E8D21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16FDF11F2F5DA96F470B0FE7A8AB07A4 /* BlueSocket.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
-				PRODUCT_MODULE_NAME = Socket;
-				PRODUCT_NAME = Socket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C55376D26FB10F2B16331A9FE1ED167 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E62CA66E56C2598A25F602D1B6FEDA /* Pods-Redis.release.xcconfig */;
+			baseConfigurationReference = D013FA9461B10DEC8E7275433E2A532B /* Pods-Gedys Cache Manager.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -459,7 +386,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Redis/Pods-Redis-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +395,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Redis/Pods-Redis.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -483,12 +410,11 @@
 			};
 			name = Release;
 		};
-		E0AE744CF1E31E8872556A64E59F116C /* Debug */ = {
+		465CDB22EE7AC01E2630998438123C57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 561F1B364E187424B267A61A16756154 /* BlueSocket.debug.xcconfig */;
+			baseConfigurationReference = 16FDF11F2F5DA96F470B0FE7A8AB07A4 /* BlueSocket.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -513,15 +439,17 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -544,6 +472,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -578,14 +507,85 @@
 			};
 			name = Release;
 		};
+		CA9A4C3B974027093C821492CAA60376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DDC6D95A0FFD9449468D0069B2DE7B /* Pods-Gedys Cache Manager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gedys Cache Manager/Pods-Gedys Cache Manager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBFFB863C99964DA931563010E259617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 561F1B364E187424B267A61A16756154 /* BlueSocket.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BlueSocket/BlueSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BlueSocket/BlueSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BlueSocket/BlueSocket.modulemap";
+				PRODUCT_MODULE_NAME = Socket;
+				PRODUCT_NAME = Socket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
-				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -593,17 +593,17 @@
 		87A03B7CDC3F58F8F7D420134806E925 /* Build configuration list for PBXNativeTarget "BlueSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0AE744CF1E31E8872556A64E59F116C /* Debug */,
-				2EDE49D2ACB2DDF26978F132203C8E88 /* Release */,
+				EBFFB863C99964DA931563010E259617 /* Debug */,
+				465CDB22EE7AC01E2630998438123C57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A124BEAF9406A22A72A469E8C68D1D18 /* Build configuration list for PBXNativeTarget "Pods-Redis" */ = {
+		98564974C12EE5C64B201BF67FD43720 /* Build configuration list for PBXNativeTarget "Pods-Gedys Cache Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A7D6F790B3763EB8274DE4A95C855F9 /* Debug */,
-				4C55376D26FB10F2B16331A9FE1ED167 /* Release */,
+				CA9A4C3B974027093C821492CAA60376 /* Debug */,
+				3B959EEB01C8D16BEBF7417C3D8E8D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

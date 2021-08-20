@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D863F7DCF716E628A4F4FB1607B1A314"
-               BuildableName = "Pods_Redis.framework"
-               BlueprintName = "Pods-Redis"
+               BlueprintIdentifier = "B6D7B2EE89DDDC55CA0DD54980083844"
+               BuildableName = "Pods_Gedys_Cache_Manager.framework"
+               BlueprintName = "Pods-Gedys Cache Manager"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

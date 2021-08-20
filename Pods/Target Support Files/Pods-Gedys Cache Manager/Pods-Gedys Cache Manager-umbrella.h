@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RedisVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RedisVersionString[];
+FOUNDATION_EXPORT double Pods_Gedys_Cache_ManagerVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Gedys_Cache_ManagerVersionString[];
 

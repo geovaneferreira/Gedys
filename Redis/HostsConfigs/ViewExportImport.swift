@@ -58,7 +58,7 @@ class ViewExportImport: UIViewController, UIDocumentPickerDelegate {
            self.present(alert, animated: true, completion: nil)
         }
     }
-    @IBAction func export(_ sender: Any) {
+    @IBAction func exportJson(_ sender: Any) {
         let activity = UIActivityViewController(
           activityItems: [Configs.sharedInstance.path!],
           applicationActivities: nil
